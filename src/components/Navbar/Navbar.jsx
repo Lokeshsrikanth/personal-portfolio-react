@@ -11,6 +11,7 @@ const navbar = () => {
         <Toggle />
       </div>
       {/* right */}
+      
       <div className="n-right">
         <div className="n-list">
           <ul style={{ listStyleType: "none" }}>
@@ -48,5 +49,6 @@ const navbar = () => {
     </div>
   );
 };
+// Added GitHub integration link
 
 export default navbar;
